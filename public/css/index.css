@@ -391,12 +391,19 @@ nav ul li a.active,a:hover{
     color:white;
     box-shadow: 0px 8px 16px black;
 }
+@media(max-width:1300px){
+    .box .dot{
+        left:-13.6%;
+    }
+}
+@media(max-width:1265px){
+    .box .dot{
+        display:none;
+    }
+}
 @media(max-width:600px){
     .education{
         margin:0;
-    }
-    .box .dot{
-        display:none;
     }
     .content{
         margin-top:2rem;
