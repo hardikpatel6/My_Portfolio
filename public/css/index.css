@@ -363,7 +363,7 @@ nav ul li a.active,a:hover{
     border: 1px solid white;
     border-radius: 50%;
     position: absolute;
-    left:20.1%;
+    left:-10.9%;
 }
 .box{
     width:100%;
