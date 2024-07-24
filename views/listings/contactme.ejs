@@ -1,0 +1,35 @@
+<% layout("/layouts/boilerplate.ejs") %>
+<body>
+    <section class="contact-Me">
+        <div class="card-head">
+            <h2>Contact<span>Me</span></h2>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            
+            <input type="hidden" name="access_key" value="92602f1a-f1fa-4e7a-8100-c99c598a9c69">
+            <div class="row">
+                <div class="col-4">
+                <input type="text" name="fullName" class="form-control" placeholder="Full Name" aria-label="First name">
+                </div>
+                <div class="col-4">
+                <input type="text" name="email" class="form-control" placeholder="Email Address" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                <input type="text" name="phoneNumber" class="form-control" placeholder="Phone Number" aria-label="First name">
+                </div>
+                <div class="col-4">
+                <input type="text" name="subject" class="form-control" placeholder="Subject" aria-label="Last name">
+                </div>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" name="message" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+                <label for="floatingTextarea2">Your Message</label>
+            </div>
+            <div class="btn">
+                <button class="btn btn-primary" type="submit">Send Message</button>
+            </div>
+        </form>
+    </section>
+</body>
